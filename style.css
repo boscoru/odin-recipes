@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(24, 72, 126);
+}
+
+.title{
+    font-family: "Times New Roman", sans-serif;
+    color: ivory;
+    font-size: 72px;
+    text-align: center;
+}
+
+.box {
+    background-color: ivory;
+    width: 600px;
+    height: 700px;
+    margin: 16px auto;
+}
+
+.plain {
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+    text-decoration: none;
+}

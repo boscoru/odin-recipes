@@ -7,15 +7,17 @@ body {
     color: ivory;
     font-size: 72px;
     text-align: center;
+    margin: 16px auto;
 }
 
 .box {
     background-color: ivory;
-    width: 600px;
-    margin: 16px auto;
+    width: 800px;
+    margin: 0px auto;
     border: solid grey;
     border-width: 4px;
     padding: 16px 32px;
+    box-sizing: border-box;
 }
 
 .titlelink {
@@ -28,4 +30,32 @@ body {
 .titlelink:hover {
     background-color: grey;
     color: ivory;
+}
+
+.titleblock {
+    position: relative;
+    width: 800px;
+    margin: 0px auto;
+}
+
+.titlepic {
+    width: 800px;
+    display: block;
+    margin: 0px auto;
+}
+
+.recipetitle {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    color: ivory;
+    font-size: 36px;
+}
+
+.recipe {
+    background-color: ivory;
+    width: 800px;
+    margin: 0px auto;
+    padding: 16px;
+    box-sizing: border-box;
 }
